@@ -60,6 +60,10 @@
         $("section").removeClass('section-show');
         $(initial_nav).addClass('section-show');
       }, 350);
+      
+      
+        
+
     }
   }
 

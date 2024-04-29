@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #3f3d3d;
+  background-color: #000000;
   color: #fff;
   position: relative;
   background: transparent;
@@ -20,7 +20,7 @@ body::before {
   content: "";
   position: fixed;
   /* background: #040404 url("../img/bg.png") top right no-repeat; */
-  background: #3f3d3d  top right no-repeat;
+  background: #000000  top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -32,7 +32,7 @@ body::before {
 .bodymid::before {
   content: "";
   position: fixed;
- background: #3f3d3d url("../img/bg.png") top right no-repeat; 
+ background: #000000 url("../img/bg.png") top right no-repeat; 
   
   background-size: cover;
   left: 0;
@@ -68,11 +68,11 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   z-index: 997;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 #header * {
@@ -149,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 }
 
@@ -938,7 +939,7 @@ section .container {
 }
 
 .contact .info-box .social-links {
-  margin: 5px 0 0 68px;
+  margin: 5px 0 0 0px;
   display: flex;
 }
 
@@ -1167,7 +1168,7 @@ section .container {
   left: 0;
   bottom: 0;
   padding: 15px;
-  text-align: right;
+  text-align: center;
   font-size: 13px;
   color: #fff;
   z-index: 1;
